@@ -1,0 +1,131 @@
+body {
+   /* background-image: url(nu.jpg) */
+   background-color: rgb(20, 20, 20);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.but1 {
+    border: none;
+    background-color: crimson;
+    border-radius: 5px;
+    margin: 20px;
+    width: 180px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.but1:hover {
+    transition: 400ms all;
+    transform: scale(1.10);
+    box-shadow: 5px 5px 48px rgb(243, 5, 53);
+}
+
+.but1:not(:hover) {
+    transition: 400ms all;
+}
+
+.but2 {
+    border: none;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    border-left: 5px solid rgb(255, 255, 255);
+    margin: 20px;
+    width: 128px;
+    height: 48px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 25px black;
+}
+
+.but2:hover {
+    transition: all 550ms;
+    box-shadow: none;
+    border-left: 5px solid black;
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 35px white;
+}
+
+.but2:not(:hover) {
+    transition: all 250ms;
+}
+
+
+.but3 {
+    background-color: rgb(201, 0, 0);
+    border: 0px;
+    border-bottom: 5px solid white;
+    margin: 20px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.but3:hover {
+    transition: all 500ms;
+    box-shadow: 5px 5px 50px rgb(201, 0, 0);
+}
+
+.but3:not(:hover) {
+    transition: all 500ms;
+}
+
+.but3:hover img {
+    transform: rotate(180deg);
+    transition: 500ms all;
+}
+
+.but3:not(:hover) img {
+    transition: 600ms all;
+}
+
+.but4 {
+    margin: 20px;
+    width: 200px;
+    height: 48px;
+    cursor: pointer;
+    background-color: gold;
+    border: 2px solid yellow;
+    border-radius: 2px;
+    box-shadow: 5px 5px 50px gold;
+}
+
+.but4:hover {
+    transition: all 400ms;
+    box-shadow: 1px 1px 10px gold;
+}
+
+.but4:not(:hover) {
+    transition: all 400ms;
+}
+
+.but5 {
+    font-size: larger;
+    font-style: italic;
+    background-color: inherit;
+    color: white;
+    border: 3px solid aqua;
+    margin: 20px;   
+    width: 150px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.but5:hover {
+    color: black;
+    background-color: aqua;
+    width: 200px;
+    transition: cubic-bezier( 0.86, 0.59, 0.18, 0.76) 500ms  all;
+
+
+}
+
+.but5:not(:hover) {
+    transition: 500ms all;
+}
